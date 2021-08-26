@@ -1,0 +1,221 @@
+.name {
+  text-align: center;
+  font-size: 3em;
+  margin-top: -1.5em;
+}
+
+.img1 {
+  width: 200px;
+  height: 150px;
+  border-radius: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.h3 {
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 1em;
+}
+
+.backround {
+  background-color: navajowhite;
+  border: transparent;
+  margin-top: -7px;
+  margin-left: -10px;
+  margin-right: -1em;
+  margin-bottom: 10px;
+  border-bottom: 30px white;
+}
+
+hr.new1 {
+  border-bottom: 5px solid black;
+
+  height: 10px;
+  width: inherit;
+  box-shadow: 0 10px 10px -10px black inset;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(228, 210, 141);
+}
+
+.aboutborder {
+  margin: 5px;
+  text-align: center;
+  border: 7px cornsilk;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  background-color: cornsilk;
+  box-shadow: 10px 20px 10px rgb(182, 166, 105);
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.de {
+  margin: 5px;
+  text-align: center;
+  border: 7px cornsilk;
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: cornsilk;
+  box-shadow: 15px 25px 15px rgb(182, 166, 105);
+  height: 20em;
+}
+
+.projects {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-gap: 3em;
+}
+
+.card {
+  background: cornsilk;
+  margin-bottom: 70px;
+  padding: inherit;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin-left: 4em;
+}
+span {
+  height: 200px;
+  display: block;
+  width: 22em;
+  background: crimson;
+}
+
+span:hover {
+  height: 200px;
+  display: block;
+  width: 22em;
+  background: blue;
+}
+p.date {
+  text-align: center;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+p.desc {
+  font-size: 0.9em;
+}
+
+.content {
+  padding: 1em;
+}
+
+p.date {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p.desc {
+  text-align: center;
+}
+
+.nba {
+  height: 200px;
+  width: 50vh;
+}
+.card:hover {
+  background: black;
+  color: white;
+  margin-bottom: 70px;
+  padding: inherit;
+  height: 12.5em;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin-left: 4em;
+}
+.card:hover p.label:after {
+  content: "<     >";
+  font-size: 40px;
+}
+.contactcolor {
+  background-color: navajowhite;
+  border: none;
+  padding-top: 10px;
+  margin-left: -8.5px;
+  margin-right: -13px;
+  margin-bottom: -10px;
+  padding-bottom: 10em;
+}
+
+hr.new2 {
+  margin-top: -17px;
+  border-bottom: 5px solid black;
+  height: 10px;
+  box-shadow: 0 10px 10px -10px black inset;
+  margin-right: -3px;
+}
+
+h1.project {
+  margin-right: auto;
+  margin-left: auto;
+  border: transparent;
+  width: 40vh;
+  text-align: center;
+  background: cornsilk;
+  margin-top: 50px;
+  margin-bottom: 1em;
+  box-shadow: 10px 20px 10px rgb(182, 166, 105);
+}
+
+nav {
+  text-align: right;
+  border: inherit;
+  background: black;
+  font-size: 25px;
+  padding: 20px;
+  margin-top: -5px;
+
+  position: fixed;
+  width: 100%;
+}
+
+a.new {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  margin-left: 25px;
+}
+a.new:hover {
+  color: blue;
+}
+
+.name1 {
+  text-align: center;
+  font-size: 3em;
+  margin: 1px;
+}
