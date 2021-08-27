@@ -28,12 +28,15 @@
 }
 
 .backround {
-  background-color: navajowhite;
+  background-color: #a1c1a6;
   border: transparent;
   margin-top: -7px;
   margin-left: -10px;
   margin-right: -1em;
   margin-bottom: 10px;
+  background-image: url("images/sunset.gif");
+  background-size: 100% 25em;
+  background-repeat: no-repeat;
   border-bottom: 30px white;
 }
 
@@ -47,19 +50,19 @@ hr.new1 {
 
 body {
   font-family: sans-serif;
-  background-color: rgb(228, 210, 141);
+  background-color: #76a47e;
 }
 
 .aboutborder {
-  margin: 5px;
+  margin-top: 2.5em;
   text-align: center;
   border: 7px cornsilk;
   width: 10em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px;
-  background-color: cornsilk;
-  box-shadow: 10px 20px 10px rgb(182, 166, 105);
+  margin-bottom: 30px;
+  background-color: #ceded0;
+  box-shadow: 10px 15px 15px #3a6441;
 }
 
 .row {
@@ -78,45 +81,34 @@ body {
   width: 50em;
   margin-left: auto;
   margin-right: auto;
-  background-color: cornsilk;
-  box-shadow: 15px 25px 15px rgb(182, 166, 105);
+  background-color: #ceded0;
+  box-shadow: 15px 25px 15px #3b6e44;
   height: 20em;
 }
 
 .projects {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   display: grid;
-  grid-template-columns: repeat(2, 200px);
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
   grid-gap: 3em;
+  place-items: center;
 }
 
 .card {
-  background: cornsilk;
+  background: #ceded0;
   margin-bottom: 70px;
   padding: inherit;
-  height: fit-content;
+
   width: fit-content;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-left: 4em;
 }
-span {
-  height: 200px;
-  display: block;
-  width: 22em;
-  background: crimson;
-}
 
-span:hover {
-  height: 200px;
-  display: block;
-  width: 22em;
-  background: blue;
-}
 p.date {
   text-align: center;
   font-size: 0.7em;
@@ -144,18 +136,18 @@ p.desc {
 }
 
 .nba {
-  height: 200px;
-  width: 50vh;
+  height: 300px;
+  width: 60vh;
 }
 .card:hover {
   background: black;
   color: white;
   margin-bottom: 70px;
   padding: inherit;
-  height: 12.5em;
+  height: fit-content;
   width: fit-content;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-left: 4em;
 }
 .card:hover p.label:after {
@@ -163,7 +155,7 @@ p.desc {
   font-size: 40px;
 }
 .contactcolor {
-  background-color: navajowhite;
+  background-color: #a1c1a6;
   border: none;
   padding-top: 10px;
   margin-left: -8.5px;
@@ -186,15 +178,15 @@ h1.project {
   border: transparent;
   width: 40vh;
   text-align: center;
-  background: cornsilk;
-  margin-top: 50px;
+  background: #ceded0;
+  margin-top: 2em;
   margin-bottom: 1em;
-  box-shadow: 10px 20px 10px rgb(182, 166, 105);
+  box-shadow: 10px 20px 10px #3b6e44;
 }
 
 nav {
-  text-align: right;
-  border: inherit;
+  text-align: center;
+  border: solid gray;
   background: black;
   font-size: 25px;
   padding: 20px;
