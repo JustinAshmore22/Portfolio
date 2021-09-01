@@ -54,15 +54,18 @@ body {
 }
 
 .aboutborder {
-  margin-top: 2.5em;
+  margin-top: 1.7em;
+  font-size: 30px;
   text-align: center;
-  border: 7px cornsilk;
+  border: solid 7px #a1c1a6;
   width: 10em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  background-color: #ceded0;
+  background-color: #bad1bd;
   box-shadow: 10px 15px 15px #3a6441;
+  padding: 0.5em;
+  height: 1.2em;
 }
 
 .row {
@@ -76,14 +79,20 @@ body {
 
 .de {
   margin: 5px;
+  margin-top: 2.5em;
   text-align: center;
-  border: 7px cornsilk;
-  width: 50em;
+  border: solid 7px #a1c1a6;
+  width: 70%;
+  text-indent: 5px;
+  text-align: center;
+  font-size: 20px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ceded0;
+  background-color: #bad1bd;
   box-shadow: 15px 25px 15px #3b6e44;
   height: 20em;
+  line-height: 2em;
+  padding: 1em;
 }
 
 .projects {
@@ -93,20 +102,21 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   display: grid;
-  grid-template-columns: repeat(2, minmax(200px, 1fr));
-  grid-gap: 3em;
+  margin-top: 4em;
+  grid-template-columns: repeat(3, minmax(180px, 0.8fr));
+  grid-gap: 1em;
   place-items: center;
 }
 
 .card {
-  background: #ceded0;
+  background: #bad1bd;
   margin-bottom: 70px;
   padding: inherit;
 
-  width: fit-content;
+  width: 60vh;
   display: flex;
   flex-direction: column;
-  margin-left: 4em;
+  margin-left: 1.5em;
 }
 
 p.date {
@@ -138,6 +148,7 @@ p.desc {
 .nba {
   height: 300px;
   width: 60vh;
+  object-fit: auto;
 }
 .card:hover {
   background: black;
@@ -145,14 +156,15 @@ p.desc {
   margin-bottom: 70px;
   padding: inherit;
   height: fit-content;
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  margin-left: 4em;
+  width: 60vh;
+  margin-left: 1em;
+  border: solid black;
+  box-shadow: 15px 25px 15px #3b6e44;
 }
 .card:hover p.label:after {
   content: "<     >";
-  font-size: 40px;
+  font-size: 20px;
+  color: #bad1bd;
 }
 .contactcolor {
   background-color: #a1c1a6;
@@ -161,7 +173,7 @@ p.desc {
   margin-left: -8.5px;
   margin-right: -13px;
   margin-bottom: -10px;
-  padding-bottom: 10em;
+  padding-bottom: 4em;
 }
 
 hr.new2 {
@@ -175,13 +187,14 @@ hr.new2 {
 h1.project {
   margin-right: auto;
   margin-left: auto;
-  border: transparent;
-  width: 40vh;
+  border: solid 7px black;
+  width: 59%;
   text-align: center;
-  background: #ceded0;
+  background: #bad1bd;
   margin-top: 2em;
   margin-bottom: 1em;
   box-shadow: 10px 20px 10px #3b6e44;
+  padding: 0.5em;
 }
 
 nav {
@@ -199,15 +212,42 @@ nav {
 a.new {
   text-decoration: none;
   color: white;
-  margin-right: 30px;
-  margin-left: 25px;
+
+  padding: 0.7em;
+  padding-top: 0.5em;
 }
 a.new:hover {
-  color: blue;
+  color: black;
+  background-color: grey;
+  padding: 0.9em;
 }
 
 .name1 {
   text-align: center;
   font-size: 3em;
   margin: 1px;
+}
+
+.contactcolumn {
+  padding-left: 1em;
+  line-height: 2em;
+  font-size: 20px;
+}
+
+.contactcolumn1 {
+  text-align: center;
+  margin-left: 15em;
+  margin-top: 2em;
+}
+
+.linkedin {
+  width: 8em;
+  height: 6em;
+  border-radius: 23%;
+  background-color: white;
+}
+
+.linkedin:hover {
+  box-shadow: 10px 20px 10px #3b6e44;
+  background-color: blue;
 }
