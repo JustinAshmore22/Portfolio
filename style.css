@@ -39,10 +39,7 @@
   background-repeat: no-repeat;
   border-bottom: 30px white;
 }
-@media (max-width: 1200px) {
-  .backround{
-    j
-  }
+
 }
 
 hr.new1 {
@@ -96,44 +93,45 @@ body {
   margin-right: auto;
   background-color: #bad1bd;
   box-shadow: 15px 25px 15px #3b6e44;
-  height: 20em;
   line-height: 2em;
-  padding: 1em;
+  height: 20em;
+  padding: 2em;
 }
 
 .projects {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
   display: grid;
   margin-top: 4em;
-  grid-template-columns: repeat(3, minmax(180px, 0.8fr));
+  grid-template-columns: repeat(3, minmax(120px, 0.8fr));
   grid-gap: 1em;
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
   place-items: center;
 }
 
-@media (max-width: 1200px) {
+@media(max-width: 1200px) {
   .projects {
 
-    grid-template-columns: repeat(1, minmax(180px, .8fr));
+    grid-template-columns: 1fr;
     justify-content: center;
-
+   
   }
-  .card{
-    width:2em;
+  .card {
+    font-size: 1.5em;
   }
-  .nba{
-    width:2em
+  h1.project {
+    font-size: 2em;
   }
 }
+
+
+
 .card {
   background: #bad1bd;
   margin-bottom: 70px;
   padding: inherit;
 
-  width: 60vh;
+  width: 50vh;
   display: flex;
   flex-direction: column;
   margin-left: 1.5em;
@@ -167,7 +165,7 @@ p.desc {
 
 .nba {
   height: 300px;
-  width: 60vh;
+  width: 50vh;
   object-fit: auto;
 }
 
@@ -177,7 +175,7 @@ p.desc {
   margin-bottom: 70px;
   padding: inherit;
   height: fit-content;
-  width: 60vh;
+  width: 50vh;
   margin-left: 1em;
   border: solid black;
   box-shadow: 15px 25px 15px #3b6e44;
@@ -232,8 +230,8 @@ nav {
 @media (max-width: 28.75em) {
   .nav {
     justify-content: center;
-
   }
+
 }
 
 a.new {
@@ -295,15 +293,22 @@ a.new:hover {
   background-color: blue;
 }
 
-@media (max-width: 1200px){
-  .contactcolor{
-      justify-content:center;
-      margin-left: -40px
+@media (max-width: 1200px) {
+  .contactcolor {
+    justify-content: center;
+   
   }
-  .contactcolumn1{
-    margin-left:3em;
+  .contactcolumn1 {
+    margin-left: 3em;
   }
-  .contactcolumn{
-    margin-left:1em;
+  .contactcolumn {
+    margin-left: -1em;
+  }
+  .aboutborder {
+    width: 4em;
+    height: 2em;
+  }
+  .de {
+    padding: 1em;
   }
 }
