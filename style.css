@@ -112,17 +112,23 @@ body {
 @media(max-width: 1200px) {
   .projects {
 
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2,1fr);
     justify-content: center;
+    margin-left: 2em;
    
   }
+  .nba{
+    max-width: 28em;
+  }
   .card {
-    font-size: 1.5em;
+    font-size: 1em;
+    max-width: 28em;
   }
   h1.project {
-    font-size: 2em;
+    font-size: 1em;
   }
 }
+
 
 
 
@@ -254,13 +260,14 @@ a.new:hover {
 }
 
 .contactcolumn {
-  padding-left: 1em;
+  padding-left: 5em;
   line-height: 2em;
   font-size: 20px;
+  text-align: center;
 }
 
 .contactcolumn1 {
-  margin-left: 12em;
+  margin-left: 15em;
   margin-top: 3.5em;
 }
 
@@ -268,6 +275,14 @@ a.new:hover {
   margin-left: 7em;
   margin-top: 3.5em;
 }
+
+.contactcolumn3 {
+  padding-left: 12em;
+  line-height: 2em;
+  font-size: 20px;
+  text-align: center;
+}
+
 
 .logo {
   width: 5em;
@@ -293,17 +308,25 @@ a.new:hover {
   background-color: blue;
 }
 
-@media (max-width: 1200px) {
-  .contactcolor {
-    justify-content: center;
-   
-  }
+@media (max-width: 1000px) {
   .contactcolumn1 {
     margin-left: 3em;
   }
   .contactcolumn {
-    margin-left: -1em;
+    margin-left: -4em;
+    font-size: 1em;
   }
+  .contactcolumn2{
+    margin-left: 5em;
+  }
+  .contactcolumn3{
+    margin-left:-1em;
+    padding-right: 5em;
+    padding-left: 8em;
+    
+    
+  }
+ 
   .aboutborder {
     width: 4em;
     height: 2em;
@@ -311,4 +334,9 @@ a.new:hover {
   .de {
     padding: 1em;
   }
+  .logo{
+    width: 4em;
+  }
 }
+
+
