@@ -107,6 +107,7 @@ body {
   max-width: 1280px;
   margin: 0 auto;
   place-items: center;
+
 }
 
 @media(max-width: 1200px) {
@@ -115,6 +116,7 @@ body {
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
     margin-left: 2em;
+    overflow-x: scroll;
    
   }
   .nba{
@@ -194,11 +196,13 @@ p.desc {
 .contactcolor {
   background-color: #a1c1a6;
   border: none;
+  margin:0;
   padding-top: 10px;
   margin-left: -8.5px;
   margin-right: -13px;
   margin-bottom: -10px;
   padding-bottom: 4em;
+  
 }
 
 hr.new2 {
@@ -308,20 +312,20 @@ a.new:hover {
   background-color: blue;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .contactcolumn1 {
-    margin-left: 3em;
+    margin-left: 8em;
   }
   .contactcolumn {
-    margin-left: -4em;
+    margin-left: -1em;
     font-size: 1em;
   }
   .contactcolumn2{
-    margin-left: 5em;
+    margin-left: 4em;
   }
   .contactcolumn3{
-    margin-left:-1em;
-    padding-right: 5em;
+    margin-left:1em;
+    padding-right: 3em;
     padding-left: 8em;
     
     
@@ -337,6 +341,6 @@ a.new:hover {
   .logo{
     width: 4em;
   }
+  
 }
-
 
