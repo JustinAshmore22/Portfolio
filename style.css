@@ -180,11 +180,7 @@ p.desc {
   border: solid black;
   box-shadow: 15px 25px 15px #3b6e44;
 }
-.card:hover p.label:after {
-  content: "<     >";
-  font-size: 20px;
-  color: #bad1bd;
-}
+
 .contactcolor {
   background-color: #a1c1a6;
   border: none;
