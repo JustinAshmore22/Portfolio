@@ -92,7 +92,7 @@ body {
   background-color: #bad1bd;
   box-shadow: 15px 25px 15px #3b6e44;
   line-height: 2em;
-  height: 20em;
+  height: 10em;
   padding: 2em;
 }
 
@@ -305,6 +305,8 @@ a.new:hover {
 
   .de {
     padding: 1em;
+    padding-bottom: 10em;
+    height: 12em;
   }
   .logo {
     width: 4em;
