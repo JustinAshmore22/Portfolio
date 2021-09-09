@@ -122,7 +122,7 @@ body {
     max-width: 28em;
   }
   h1.project {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 
@@ -305,10 +305,50 @@ a.new:hover {
 
   .de {
     padding: 1em;
-    padding-bottom: 10em;
-    height: 12em;
+    padding-bottom: 6em;
+    height: 8em;
   }
   .logo {
     width: 4em;
+  }
+}
+
+@media (max-width: 1000px) {
+  .de {
+    padding-bottom: 8em;
+  }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin-left: 2em;
+    overflow-x: scroll;
+  }
+  .nba {
+    min-width: 20em;
+  }
+  .card {
+    font-size: 1em;
+    min-width: 20em;
+  }
+  h1.project {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 900px) {
+  .de {
+    padding-bottom: 11em;
+  }
+}
+
+@media (max-width: 800px) {
+  .de {
+    padding-bottom: 14em;
+  }
+}
+
+@media (max-width: 700px) {
+  .de {
+    padding-bottom: 16em;
   }
 }
