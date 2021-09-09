@@ -267,13 +267,6 @@ a.new:hover {
   margin-top: 3.5em;
 }
 
-.contactcolumn3 {
-  padding-left: 12em;
-  line-height: 2em;
-  font-size: 20px;
-  text-align: center;
-}
-
 .logo {
   width: 5em;
   height: 4em;
@@ -309,14 +302,7 @@ a.new:hover {
   .contactcolumn2 {
     margin-left: 4em;
   }
-  .contactcolumn3 {
-    margin-left: 1em;
-    padding-right: 3em;
-    padding-left: 8em;
-  }
 
-  
-  }
   .de {
     padding: 1em;
   }
