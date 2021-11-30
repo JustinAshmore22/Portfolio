@@ -77,6 +77,9 @@ body {
   flex: 33.33%;
   padding: 5px;
 }
+.b {
+  background: black;
+}
 
 .de {
   margin: 5px;
@@ -251,14 +254,13 @@ a.new:hover {
 }
 
 .contactcolumn {
-  padding-left: 5em;
-  line-height: 2em;
-  font-size: 20px;
-  text-align: center;
+  margin-left: 17em;
+  margin-top: 3.5em;
 }
 
 .contactcolumn1 {
-  margin-left: 15em;
+  margin-right: 10em;
+  margin-left: 17em;
   margin-top: 3.5em;
 }
 
@@ -268,20 +270,27 @@ a.new:hover {
 }
 
 .logo {
-  width: 5em;
-  height: 4em;
-  border-radius: 23%;
+  margin-left: 16px;
+  margin-top: 15px;
+  width: 6em;
+  height: 5em;
+  border-radius: 70%;
   background-color: white;
 }
-
-.logo:hover {
+.g {
+  width: 8em;
+  height: 7em;
+  border-radius: 70%;
+  background-color: white;
+}
+.g:hover {
   box-shadow: 10px 20px 10px #3b6e44;
   background-color: blue;
 }
 
 .logo2 {
-  width: 5em;
-  height: 4em;
+  width: 8em;
+  height: 7em;
   border-radius: 70%;
   background-color: white;
 }
