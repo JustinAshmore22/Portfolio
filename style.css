@@ -50,7 +50,7 @@ hr.new1 {
 
 body {
   font-family: sans-serif;
-  background-color: #76a47e;
+  background-color: rgb(127, 120, 117);
 }
 
 .aboutborder {
@@ -62,8 +62,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  background-color: #bad1bd;
-  box-shadow: 10px 15px 15px #3a6441;
+  background-color: rgb(223, 183, 153);
+  box-shadow: 10px 15px 15px #252423;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   height: 1.2em;
@@ -85,15 +85,15 @@ body {
   margin: 5px;
   margin-top: 2.5em;
   text-align: center;
-  border: solid 7px #a1c1a6;
+  border: solid 7px black;
   width: 65%;
   text-indent: 5px;
   text-align: center;
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #bad1bd;
-  box-shadow: 15px 25px 15px #3b6e44;
+  background-color: #ce9b71;
+  box-shadow: 15px 25px 15px #252423;
   line-height: 2em;
   height: 10em;
   padding: 2em;
@@ -130,7 +130,7 @@ body {
 }
 
 .card {
-  background: #bad1bd;
+  background: #ce9b71;
   margin-bottom: 70px;
   padding: inherit;
 
@@ -181,11 +181,11 @@ p.desc {
   width: 50vh;
   margin-left: 1em;
   border: solid black;
-  box-shadow: 15px 25px 15px #3b6e44;
+  box-shadow: 15px 25px 15px #33312f;
 }
 
 .contactcolor {
-  background-color: #a1c1a6;
+  background-color: rgb(223, 183, 153);
   border: none;
   margin: 0;
   padding-top: 10px;
@@ -210,10 +210,10 @@ h1.project {
   font-size: 30px;
   width: 59%;
   text-align: center;
-  background: #bad1bd;
+  background: rgb(223, 183, 153);
   margin-top: 2em;
   margin-bottom: 2em;
-  box-shadow: 10px 20px 10px #3b6e44;
+  box-shadow: 10px 20px 10px #252423;
   padding: 0.5em;
 }
 
@@ -284,8 +284,8 @@ a.new:hover {
   background-color: white;
 }
 .g:hover {
-  box-shadow: 10px 20px 10px #3b6e44;
-  background-color: blue;
+  box-shadow: 10px 20px 10px rgb(119, 103, 87);
+  background-color: black;
 }
 
 .logo2 {
@@ -296,8 +296,8 @@ a.new:hover {
 }
 
 .logo2:hover {
-  box-shadow: 10px 20px 10px #3b6e44;
-  background-color: blue;
+  box-shadow: 10px 20px 10px rgb(119, 103, 87);
+  background-color: black;
 }
 
 @media (max-width: 1200px) {
