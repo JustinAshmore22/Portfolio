@@ -302,14 +302,17 @@ a.new:hover {
 
 @media (max-width: 1200px) {
   .contactcolumn1 {
-    margin-left: 8em;
+    margin-left: 12em;
   }
   .contactcolumn {
-    margin-left: -1em;
+    margin-left: 5em;
     font-size: 1em;
+
+  
   }
   .contactcolumn2 {
     margin-left: 4em;
+    margin-right: 3em;
   }
 
   .de {
@@ -318,9 +321,15 @@ a.new:hover {
     height: 8em;
   }
   .logo {
-    width: 4em;
+
+      margin-left: 20px;
+      margin-top: 15px;
+      width: 4em;
+      height: 5em;
+      
+    }
   }
-}
+
 
 @media (max-width: 1000px) {
   .de {
@@ -342,18 +351,56 @@ a.new:hover {
   h1.project {
     font-size: 1.5em;
   }
+  .logo {
+    margin-left: 17px;
+    margin-top: 15px;
+    width: 6em;
+    height: 5em;
+    
+  }
+  .g {
+    
+    width: 8em;
+    height: 7em;
+    border-radius: 70%;
+    background-color: white;
+}
 }
 
 @media (max-width: 900px) {
   .de {
     padding-bottom: 11em;
   }
+  .logo {
+    margin-left: 40px;
+    margin-top: 15px;
+    width: 6em;
+    height: 5em;
+    
+  }
+  .g {
+    width: 8em;
+    height: 7em;
+    border-radius: 70%;
+    background-color: white;
 }
 
 @media (max-width: 800px) {
   .de {
     padding-bottom: 14em;
   }
+  .logo {
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 6em;
+    height: 5em;
+    
+  }
+  .g {
+    width: 8em;
+    height: 7em;
+    
+}
 }
 
 @media (max-width: 700px) {
