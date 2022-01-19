@@ -152,6 +152,7 @@ p.desc {
 
 .content {
   padding: 1em;
+  opacity: 3;
 }
 
 p.date {
@@ -170,6 +171,7 @@ p.desc {
   height: 300px;
   width: 50vh;
   object-fit: auto;
+  box-sizing: border-box;
 }
 
 .card:hover {
@@ -398,4 +400,17 @@ a.new:hover {
       padding-bottom: 16em;
     }
   }
+}
+
+.cardhover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: block;
+  box-sizing: border-box;
+  opacity: 0;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.cardhover:hover {
+  opacity: 1;
 }
