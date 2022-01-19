@@ -307,8 +307,6 @@ a.new:hover {
   .contactcolumn {
     margin-left: 5em;
     font-size: 1em;
-
-  
   }
   .contactcolumn2 {
     margin-left: 4em;
@@ -321,15 +319,12 @@ a.new:hover {
     height: 8em;
   }
   .logo {
-
-      margin-left: 20px;
-      margin-top: 15px;
-      width: 4em;
-      height: 5em;
-      
-    }
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 4em;
+    height: 5em;
   }
-
+}
 
 @media (max-width: 1000px) {
   .de {
@@ -356,15 +351,13 @@ a.new:hover {
     margin-top: 15px;
     width: 6em;
     height: 5em;
-    
   }
   .g {
-    
     width: 8em;
     height: 7em;
     border-radius: 70%;
     background-color: white;
-}
+  }
 }
 
 @media (max-width: 900px) {
@@ -376,35 +369,33 @@ a.new:hover {
     margin-top: 15px;
     width: 6em;
     height: 5em;
-    
   }
   .g {
     width: 8em;
     height: 7em;
     border-radius: 70%;
     background-color: white;
-}
-
-@media (max-width: 800px) {
-  .de {
-    padding-bottom: 14em;
   }
-  .logo {
-    margin-left: 20px;
-    margin-top: 15px;
-    width: 6em;
-    height: 5em;
-    
-  }
-  .g {
-    width: 8em;
-    height: 7em;
-    
-}
-}
 
-@media (max-width: 700px) {
-  .de {
-    padding-bottom: 16em;
+  @media (max-width: 800px) {
+    .de {
+      padding-bottom: 14em;
+    }
+    .logo {
+      margin-left: 20px;
+      margin-top: 15px;
+      width: 6em;
+      height: 5em;
+    }
+    .g {
+      width: 8em;
+      height: 7em;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .de {
+      padding-bottom: 16em;
+    }
   }
 }
