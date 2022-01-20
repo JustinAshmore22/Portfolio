@@ -26,7 +26,7 @@ Array.from(div).forEach(function (d) {
     } else if (d === div[4]) {
       nba.innerHTML = `<p class="date">Date: August 2021</p>
           <h3>Description: My first Unit Project 1000 lines of python call where you go to 5 different floors and encounter different SCPs</h3>
-          <p class="date">Languages: HTML, CSS</p>`;
+          <p class="date">Languages: Python</p>`;
     } else if (d === div[5]) {
       nba.innerHTML = `<p class="date">Date: November 2021</p>
       <h3>Description: A new and refreshed version of the dnd website where you can add comments to other peoples and your on creations</h3>
