@@ -1,11 +1,9 @@
 const div = document.getElementsByClassName("card");
-console.log(div);
 
 Array.from(div).forEach(function (d) {
   d.addEventListener("mouseover", function () {
-    console.log("m");
     var nba = d.getElementsByClassName("content")[0];
-    console.log(nba);
+
     if (d === div[0]) {
       nba.innerHTML = `<p class="date">Date: August 2021</p>
 
