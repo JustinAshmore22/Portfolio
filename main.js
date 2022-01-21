@@ -36,3 +36,40 @@ Array.from(div).forEach(function (d) {
     }
   });
 });
+
+Array.from(div).forEach(function (d) {
+  d.addEventListener("mouseleave", function () {
+    var nba = d.getElementsByClassName("content")[0];
+
+    if (d === div[0]) {
+      nba.innerHTML = `<p class="date">Date: August 2021</p>
+
+      <h3></h3>
+      <p class="date">Languages: Python</p>`;
+    } else if (d === div[1]) {
+      nba.innerHTML = `<p class="date">Date: August 2021</p>
+      <h3></h3>
+      <p class="date">Languages: CSS, HTML</p>`;
+    } else if (d === div[2]) {
+      nba.innerHTML = `<p class="date">Date: July 2021</p>
+        <h3></h3>
+        <p class="date">Languages: Python</p>`;
+    } else if (d === div[3]) {
+      nba.innerHTML = `<p class="date">Date: August 2021</p>
+        <h3></h3>
+        <p class="date">Languages: HTML, CSS</p>`;
+    } else if (d === div[4]) {
+      nba.innerHTML = `<p class="date">Date: August 2021</p>
+          <h3></h3>
+          <p class="date">Languages: Python</p>`;
+    } else if (d === div[5]) {
+      nba.innerHTML = `<p class="date">Date: November 2021</p>
+      <h3></h3>
+      <p class="date">Languages: Django, CSS, HTML</p>`;
+    } else if (d === div[6]) {
+      nba.innerHTML = `<p class="date">Date: January 2022</p>
+        <h3></h3>
+        <p class="date">Languages: Javascript</p>`;
+    }
+  });
+});
