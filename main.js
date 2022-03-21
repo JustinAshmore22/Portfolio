@@ -33,6 +33,10 @@ Array.from(div).forEach(function (d) {
       nba.innerHTML = `<p class="date">Date: January 2022</p>
         <h3>Description: A website in Javascript that you can check the weather to see what kind of clothes you should buy. Also tetris is playable.</h3>
         <p class="date">Languages: Javascript</p>`;
+    } else if (d === div[7]) {
+      nba.innerHTML = `<p class="date">Date: February 2022</p>
+        <h3>Description: The java project can keep track of owners of a car and make and models.</h3>
+        <p class="date">Languages: Java, SQL</p>`;
     }
   });
 });
@@ -70,6 +74,10 @@ Array.from(div).forEach(function (d) {
       nba.innerHTML = `<p class="date">Date: January 2022</p>
         <h3></h3>
         <p class="date">Languages: Javascript</p>`;
+    } else if (d === div[7]) {
+      nba.innerHTML = `<p class="date">Date: February 2022</p>
+            <h3></h3>
+            <p class="date">Languages: Java, SQL</p>`;
     }
   });
 });
